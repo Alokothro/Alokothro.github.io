@@ -1,17 +1,38 @@
 body {
 background-color: lime;
 font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-wrap: wrap;
 } 
 h1 {
   color: magenta;
   text-align: center;
+  width: 100%; 
+  display: block;
+}
+h1:hover {
+color: hotpink; 
+text-align: 
+center; 
+width: 100%; 
+display: block;
 }
 .assign {
-  background-color: lime
+background-color: lime
 display: flex;
 padding: 10px;
 margin: 10px; 
+border-radius: 20px;
+width: 20%;
 }
 .assign img {
-width: 200px; padding: 10px;
+width: 200px; 
+padding: 10px;
+border: 2px solid midnightblue;
 }
+.assign img:hover {
+width: 200px;
+margin: 10px;
+border: 2px dotted yellow;
+}
+ 
